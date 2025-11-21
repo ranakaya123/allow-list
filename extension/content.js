@@ -963,6 +963,29 @@ const WORKFLOW_STEPS = [
   },
   {
     id: 10,
+    name: 'step10_simulation_urls_input',
+    title: 'workflowStep10Title',
+    description: 'workflowStep10Description',
+    target: {
+      selector: 'label.ms-Label.root-985',
+      textMatch: /İzin verilen simülasyon URL/i,
+      fallback: [
+        'label.ms-Label:contains("İzin verilen simülasyon URL")',
+        'input[aria-label="URL picker"]',
+        'input.ms-BasePicker-input'
+      ]
+    },
+    tooltip: 'tooltipURLs',
+    autoClick: false,
+    autoAdvance: false,  // Manuel Continue butonuna basılmalı
+    validation: () => true,
+    realTimeValidation: true,
+    criticalStep: false,
+    waitAfterClick: 2000,
+    panelPosition: 'bottom-left'
+  },
+  {
+    id: 11,
     name: 'step11_save',
     title: 'workflowStep11Title',
     description: 'workflowStep11Description',
@@ -982,7 +1005,7 @@ const WORKFLOW_STEPS = [
     panelPosition: 'bottom-left'
   },
   {
-    id: 11,
+    id: 12,
     name: 'step12_summary',
     title: 'workflowStep12Title',
     description: 'workflowStep12Description',
@@ -5496,8 +5519,8 @@ ${i18n(step.licenseCheck.skipMessage)}`)
       `
     }
     
-        // Simülasyon URL'leri için özel bölüm (Workflow 1 step 10) - Modern Notion-style liste
-    if (step.id === 9 && step.name === 'step10_simulation_urls_input') {
+    // Simülasyon URL'leri için özel bölüm (Workflow 1 step 10) - Modern Notion-style liste
+    if (step.id === 10 && step.name === 'step10_simulation_urls_input' && this.workflowName === 'WORKFLOW_1') {
       const domains = [
         'signin-authzone.com',
         'verifycloudaccess.com',
