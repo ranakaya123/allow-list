@@ -160,6 +160,8 @@ Sorunlar için GitHub Issues kullanın veya [Keepnet Labs](https://keepnetlabs.c
 
 ## 🔄 Changelog
 
+> Güncel sürüm tarihi: **22.11.2025**
+
 ### v3.1.0
 - ✅ Content script mesaj dinleyici eklendi
 - ✅ Initialization süreci iyileştirildi
