@@ -23,3 +23,5 @@ export function StepIndicator({ stepNumber, isActive, isComplete }: StepIndicato
     </motion.div>
   )
 }
+
+ 

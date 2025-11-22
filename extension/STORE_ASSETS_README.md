@@ -95,3 +95,5 @@ Görselleri şu şekilde adlandırın:
 - Görsellerde kişisel bilgi veya hassas veri gösterilmemeli
 - Görseller Chrome Web Store'un içerik politikasına uygun olmalı
 
+
+ 

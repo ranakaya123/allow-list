@@ -351,3 +351,5 @@ screenshotManager.save(stepId, dataUrl, validationResult)
 **Gereksinimler**: Chrome 88+, Manifest v3  
 
 **Not**: Bu extension Microsoft 365 Security Center ve Exchange Admin Center'da çalışır. Keepnet IP'leri ve domain'leri config.json dosyasında tanımlıdır.
+
+ 

@@ -362,3 +362,5 @@ chrome.tabs.onUpdated.addListener(async (tabId, changeInfo, tab) => {
 })
 
 console.log("[Keepnet] Background service worker ready")
+
+ 

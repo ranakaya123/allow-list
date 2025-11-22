@@ -131,3 +131,5 @@ Keepnet Assistant is a powerful Chrome extension that automates allow list confi
 - **Permissions Justification**: Her izin açıkça belirtilmiş ve gerekçelendirilmiş
 - **User Data**: Extension kullanıcı verisi toplamıyor, sadece yerel olarak saklıyor
 
+
+ 

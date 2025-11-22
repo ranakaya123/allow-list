@@ -301,3 +301,5 @@ Console:
 
 *Sol-alt köşede, tek panel, otomatik tıklama, gerçek zamanlı validation!*
 
+
+ 

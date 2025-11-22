@@ -21,3 +21,5 @@ export function ProgressBar({ current, total }: ProgressBarProps) {
     </div>
   )
 }
+
+ 
